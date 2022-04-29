@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h1 style="color:Tomato;">IT Professions</h1>
+
+		<img src="https://centriq.com/wp-content/uploads/2018/01/The-Office-Weird-IT-Nerd-2-600x338.png" />
+		<p>For this midterm project, I thought it would be appropriate to dedicate at least one markdown page to content that is relevant to this class. Therefore, this page is dedicated to <i>different</i> professions within the field of IT and information about them.
+	
+	<h2>List of Occupations</h2>
+		<p>The following is a list of the four <b>highest</b> paying IT professions according to the <a href="https://www.bls.gov/ooh/computer-and-information-technology/home.htm">U.S. Bureau of Labor Statistics</a> website. Click <a href="https://comptiacdn.azureedge.net/webcontent/images/default-source/researchreports/it-industry-outlook-2022/report-chart-1_tech-occupation-employment-outlook.jpg?sfvrsn=f9a0f5e7_2">here</a> to see a graph showing projected employment growth for tech occupations.</p>
+		<ol>
+			<li>Computer and Information Research Scientists</li>
+			<li>Computer Network Architects</li>
+			<li>Software Developers, Quality Assurance Analysts, and Testers</li>
+			<li>Information Security Analyst</li>
+		</ol>
+		
+	<h2>Example of JavaScript Code</h2>
+		<p>To demonstrate what I have learned so far in my IT education, here is a very simple JavaScript program that will print all of the even numbers appearing in a range of 1-100.</p>
+		
+		<br>&lt!DOCTYPE html&gt</br>
+		<br>&lthtml&gt</br>
+		<br>&lthead&gt</br>
+		<br>&ltmeta charset="UTF-8"&gt</br>
+		<br>&lttitle&gtEven Numbers&lt/title&gt</br>
+		<br>&ltscript&gt</br>
+
+		function showEvenNumbers() {
+			var display = document.getElementById('display');
+			var displayHTML = "";
+			for (var i = 1; i < 101; i++) {
+				if (i % 2 == 0) displayHTML += "&ltp&gt" + i + "&lt/p&gt";
+			}
+			display.innerHTML = displayHTML
+		}
+
+		<br>&lt/script&gt</br>
+
+		<br>&lt/head&gt</br>
+
+		<br>&ltbody onload="showEvenNumbers()"&gt</br>
+		<br>&ltdiv id="display"&gt</br>
+
+		<br>&lt/div&gt</br>
+		<br>&lt/body&gt</br>
+
+		<br>&lt/html&gt</br>
+		
+</body>
+</html>
