@@ -1,2 +1,10 @@
-# agcfield.github.io
-Andrew Crutchfield's repository for INFOTC 1000 final project.
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>agcfield.github.io</h1>
+    <p>Welcome! This is the homepage for Andrew Crutchfield's repository for the INFOTC 1000 midterm project. You can use the links below to navigate to different pages in the repository.</p>
+  
+  <h2>Pages:</h2>
+  
+  </body>
+  </html>
